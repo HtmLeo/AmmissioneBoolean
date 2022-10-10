@@ -1,0 +1,63 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  color: white;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin: 25px 250px;
+  padding: 70px;
+}
+
+header, nav {
+  text-align: center;
+  color: lime;
+}
+
+nav {
+  background-color: lime;
+  padding: 10px;
+}
+
+header > h1 {
+  margin: 5px;
+}
+
+img[src="logo.png"] {
+  width: 200px;
+}
+
+h2 {
+  display: inline-block;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.address:before {
+  content: "\21A6";
+  margin-right: 5px;
+}
+
+.charge {
+  height: 25px;
+  border-radius: 5px;
+}
+
+.half.charge {
+  width: 350px;
+  background-color: #F5B453;
+}
+
+.full.charge {
+  width: 550px;
+  background-color: #1DC31D;
+}
+
+.low.charge {
+  width: 150px;
+  background-color: #BE4141;
+}
